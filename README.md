@@ -50,11 +50,16 @@ if let name = myclass?.getName() {
 }
 
 
-// Exemple 1: Declarative way
+// Exemple 2: Declarative way
 let myClass2 = DMInject.main.getInstance(interface: MyClassProtocol.self)
 if let name = myClass2?.getName() {
     print(name)
 }
+
+// Example 3: Using Property Wraper
+@Inject
+var myClassX: MyClassProtocol?
+
 ```
 
 ## Requirements

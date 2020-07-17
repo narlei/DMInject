@@ -8,6 +8,16 @@
 
 import Foundation
 
+
+/// Add @Inject in your property
+@propertyWrapper public struct Inject<T> {
+    public init() {}
+
+    public var wrappedValue: T? {
+        DMInject.main.getInstance(interface: T.self)
+    }
+}
+
 /// Dependency injection manager
 public class DMInject {
     public static let main = DMInject()
