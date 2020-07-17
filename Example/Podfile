@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DMInject_Example' do
+  pod 'DMInject', :path => '../'
+
+  target 'DMInject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
