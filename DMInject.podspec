@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DMInject'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'DMInject is a Dependency Manager that helps you to clear your code and be more productive.'
 
 # This description is used to generate tags and improve search results.
