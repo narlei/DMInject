@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DMInject'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DMInject.'
+  s.summary          = 'DMInject is a Dependency Manager that helps you to clear your code and be more productive.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,16 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DMInject is a Dependency Manager that helps you to clear your code and be more productive. 
+Map your Protocols in one place and use in app of your app without reference that. It helps you to make testes and change behaviors.
                        DESC
 
-  s.homepage         = 'https://github.com/Narlei Moreira/DMInject'
+  s.homepage         = 'https://github.com/narlei/DMInject'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Narlei Moreira' => 'narlei.guitar@gmail.com' }
-  s.source           = { :git => 'https://github.com/Narlei Moreira/DMInject.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/narlei/DMInject.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/narleimoreira'
 
+  s.swift_versions = '5.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DMInject/Classes/**/*'

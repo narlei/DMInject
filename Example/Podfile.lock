@@ -1,0 +1,16 @@
+PODS:
+  - DMInject (0.1.0)
+
+DEPENDENCIES:
+  - DMInject (from `../`)
+
+EXTERNAL SOURCES:
+  DMInject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DMInject: 9aa36612123cb75161eb7b7bb66b5d376f2332d1
+
+PODFILE CHECKSUM: 1e9791dfc3ab576f93b856fa3f9f67f1553ea8e7
+
+COCOAPODS: 1.9.3

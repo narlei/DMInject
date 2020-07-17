@@ -1,0 +1,6 @@
+framework module DMInject {
+  umbrella header "DMInject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,6 +15,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9C7156C324C1AD4A00C7291B /* DMInjectionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7156C224C1AD4A00C7291B /* DMInjectionMapper.swift */; };
+		9C7156C924C1AF8900C7291B /* MyClassProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7156C824C1AF8900C7291B /* MyClassProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +31,10 @@
 
 /* Begin PBXFileReference section */
 		0D6206B2BDAC8635505D701D /* Pods_DMInject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMInject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		288A1F9017F8E4208D574488 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		37983583E153F5F022B876AD /* DMInject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DMInject.podspec; path = ../DMInject.podspec; sourceTree = "<group>"; };
+		288A1F9017F8E4208D574488 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		37983583E153F5F022B876AD /* DMInject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DMInject.podspec; path = ../DMInject.podspec; sourceTree = "<group>"; };
 		3DA139E07F85CFE9A5642810 /* Pods_DMInject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMInject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D8D17630B6B3F50914CE1A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5D8D17630B6B3F50914CE1A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DMInject_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMInject_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7CBDA448A62FECABE37EC12A /* Pods-DMInject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMInject_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DMInject_Tests/Pods-DMInject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CDEDFD462094D7A9D2C4138 /* Pods-DMInject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMInject_Example.release.xcconfig"; path = "Target Support Files/Pods-DMInject_Example/Pods-DMInject_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9C7156C224C1AD4A00C7291B /* DMInjectionMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMInjectionMapper.swift; sourceTree = "<group>"; };
+		9C7156C824C1AF8900C7291B /* MyClassProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClassProtocol.swift; sourceTree = "<group>"; };
 		B26537624DB843F7BEACAD8A /* Pods-DMInject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMInject_Example.debug.xcconfig"; path = "Target Support Files/Pods-DMInject_Example/Pods-DMInject_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E8A1A8ECEE06D6EDCDB22FF3 /* Pods-DMInject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMInject_Tests.release.xcconfig"; path = "Target Support Files/Pods-DMInject_Tests/Pods-DMInject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +100,8 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				9C7156C224C1AD4A00C7291B /* DMInjectionMapper.swift */,
+				9C7156C824C1AF8900C7291B /* MyClassProtocol.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -156,7 +162,6 @@
 				7CBDA448A62FECABE37EC12A /* Pods-DMInject_Tests.debug.xcconfig */,
 				E8A1A8ECEE06D6EDCDB22FF3 /* Pods-DMInject_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HQKT5G7NHC;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HQKT5G7NHC;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -332,6 +340,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9C7156C324C1AD4A00C7291B /* DMInjectionMapper.swift in Sources */,
+				9C7156C924C1AF8900C7291B /* MyClassProtocol.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +488,7 @@
 			baseConfigurationReference = B26537624DB843F7BEACAD8A /* Pods-DMInject_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HQKT5G7NHC;
 				INFOPLIST_FILE = DMInject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +504,7 @@
 			baseConfigurationReference = 8CDEDFD462094D7A9D2C4138 /* Pods-DMInject_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HQKT5G7NHC;
 				INFOPLIST_FILE = DMInject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CBDA448A62FECABE37EC12A /* Pods-DMInject_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HQKT5G7NHC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8A1A8ECEE06D6EDCDB22FF3 /* Pods-DMInject_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HQKT5G7NHC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
